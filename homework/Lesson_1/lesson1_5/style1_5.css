@@ -1,0 +1,31 @@
+body{
+    background-image: url(img_hw1_5/Batmen.jpg);
+    /*background-color: rgba(119, 136, 153, 0.98);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 40px;
+    color: rgba(2, 2, 35, 0.96);
+    text-align: center;
+}
+h2{
+    margin-bottom: 0;
+    background-color: rgba(211, 211, 211, 0.93);
+    width: 100px;
+    padding-left: 15px;
+}
+p{
+    font-size: 20px;
+    background-color: rgba(211, 211, 211, 0.93);
+}
+img{
+    width: 150px;
+}
+span{
+    display: block;
+    font-size: 20px;
+    width: 18%;
+    background-color: rgba(211, 211, 211,  0.93);
+    margin-top: 30px;
+}
