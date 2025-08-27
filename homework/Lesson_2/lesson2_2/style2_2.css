@@ -1,0 +1,21 @@
+*{
+    margin:0;
+}
+.flex{
+    height: 500px;
+    background-color: #fdccaa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 0.6s;
+}
+.circle:hover{
+    background-color: grey;
+    border-radius: 50%;
+    transition: 0.6s;
+}
