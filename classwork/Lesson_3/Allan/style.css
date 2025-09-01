@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+/*-----------------HOME------------------*/
+/*-----------------header----------------*/
+.active-link{
+    color: #537161;
+}
+header{
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+}
+header div{
+    text-align: center;
+}
+header div h3{
+    font-size: 16px;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+header nav a{
+    color: gray;
+    font-size: 20px;
+}
+/*-----------------main-----------------*/
+.home{
+    height: 90vh;
+    background-image: url(img/forest.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    padding-top: 50px;
+}
+.home p{
+    font-size: 20px;
+}
+.home h1{
+    font-size: 100px;
+    letter-spacing: 30px;
+}
+.home button{
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    transition: 2s;
+}
+.home button:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    color: #537161;
+}
+/*------------------CONTACT--------------------*/
+.contact{
+    height: 90vh;
+    background-image: url(img/forest_2.jpg);
+    background-size: cover;
+    font-family: "Orbitron", sans-serif;
+}
+.contact img{
+    width: 50%;
+    padding: 10px 0 20px 50px;
+}
+.paragraph{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0 0 50px;
+}
+h2{
+    padding-bottom: 10px;
+}
+address{
+    font-style: normal;
+}
+.contact-form-1{
+    font-size: 16px;
+    padding: 0 0 10px 10px;
+    margin: 0 0 10px 40px;
+    background-color: rgba(255, 250, 240, 0.6);
+    width: 47%;
+}
+.contact-form-2{
+    padding: 0 0 10px 10px;
+    margin: 0 0 10px 40px;
+    background-color: rgba(255, 250, 240, 0.6);
+    width: 47%;
+}
+.contact-form-1 a{
+    font-size: 16px;
+    color: #537161;
+}
+.button{
+    width: 160px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 1s;
+}
+.button:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
