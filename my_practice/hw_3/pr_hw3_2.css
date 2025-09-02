@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*section p{*/
+/*    width: 80%;*/
+/*}*/
+.box-1{
+    height: 50vh;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    /*text-align: center;*/
+    /*font-family: Arial, sans-serif;*/
+}
+.box-2{
+    height: 50vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    /*text-align: center;*/
+    /*font-family: Arial, sans-serif;*/
+}
+h2{
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-weight: 200;
+}

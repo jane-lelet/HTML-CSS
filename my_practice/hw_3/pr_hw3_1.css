@@ -1,0 +1,36 @@
+header{
+    height: 60vh;
+    background-color: palevioletred;
+}
+body{
+    margin: 2%;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+}
+section{
+    height: 70vh;
+    width: 30%;
+    background-color: #884056;
+}
+footer{
+    height: 90vh;
+    background-color: palevioletred;
+}
+header, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}

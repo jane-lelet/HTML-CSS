@@ -1,0 +1,52 @@
+*{
+    margin:0;
+}
+body{
+    height:100vh;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orange{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.orange img {
+    width: 50%;
+}
+.violet{
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.violet img{
+    width: 50%;
+}
+.brown{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.brown img{
+    width: 50%;
+}
+.flex{
+    height: 100%;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-direction: column;
+}
