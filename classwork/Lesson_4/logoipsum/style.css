@@ -4,14 +4,14 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style-type: none;
+    list-style: none;
     border: none;
 }
 .w-1070{
     width: 1070px;
     margin: 0 auto;
 }
-/*---------------header---------------*/
+/*---------------header----------------*/
 header{
     display: flex;
     justify-content: space-between;
@@ -23,6 +23,7 @@ header nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
 }
 header nav ul{
     display: flex;
@@ -33,11 +34,16 @@ header nav ul{
 header nav a{
     color: #696871;
     font-size: 15px;
+    font-style: normal;
     font-weight: 700;
+    line-height: normal;
     letter-spacing: -0.469px;
 }
 .header__active-link{
     color: #19191B;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.469px;
     border-bottom: 2px solid #5454D4;
 }
 .header__button{
@@ -50,29 +56,27 @@ header nav a{
     font-weight: 700;
     letter-spacing: -0.531px;
 }
-/*----------------------hero-----------------*/
+/*--------------------hero---------------*/
 .hero{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 68px;
 }
-.hero div h1{
+.hero h1{
     width: 439.411px;
     color: #19191B;
     font-family: "DM Sans", sans-serif;
     font-size: 75px;
-    font-style: normal;
     font-weight: 700;
     line-height: 77px; /* 102.667% */
     letter-spacing: -2.501px;
 }
-.hero div p{
+.hero p{
     width: 409.426px;
     color: #696871;
     font-family: "Mulish", sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 150% */
     letter-spacing: -0.625px;
@@ -84,31 +88,29 @@ header nav a{
     border-radius: 10px;
     background: #5454D4;
     color: #FFF;
-    text-align: center;
     font-family: "DM Sans", sans-serif;
     font-size: 17px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: -0.531px;
 }
-/*----------------------brands-------------------*/
-.brands{
+/*------------------------logos---------------*/
+.logos{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 212px 0 160px 0;
+    /*gap: 120px;*/
+    margin: 142px 0 160px 0;
 }
-/*---------------------hero-2--------------------*/
-.hero-2{
+/*-----------------subscription----------------*/
+.subscription{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.hero-2 img{
-    margin: 0 166px 83px 0;
+.margin-subscription{
+    margin-left: 166px;
 }
-.hero-2 div h3{
+.subscription h3{
     width: 556px;
     color: #19191B;
     font-family: "DM Sans", sans-serif;
@@ -116,9 +118,45 @@ header nav a{
     font-weight: 700;
     line-height: 57px; /* 114% */
     letter-spacing: -1.563px;
+    margin-top: 122px;
 }
-.hero-2 div p{
+.subscription p{
     width: 459px;
+    color: #696871;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+    padding: 30px 0 30px 0;
+}
+.subscription a{
+    color: #5454D4;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+/*----------------------metrics--------------------*/
+.metrics{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.margin-metrics{
+    margin-right: 208px;
+}
+.metrics h3{
+    width: 409px;
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px; /* 114% */
+    letter-spacing: -1.563px;
+}
+.metrics p{
+    width: 409px;
     color: #696871;
     font-family: "Mulish", sans-serif;
     font-size: 20px;
@@ -127,70 +165,26 @@ header nav a{
     letter-spacing: -0.625px;
     margin: 30px 0 30px 0;
 }
-.hero-2 div a{
+.metrics a{
     color: #5454D4;
     font-family: "DM Sans", sans-serif;
     font-size: 17px;
     font-weight: 700;
     letter-spacing: -0.531px;
 }
-/*------------------hero-3-----------------*/
-.hero-3{
+/*----------------------cards-------------------*/
+.cards{
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-.hero-3 h3{
-    width: 409px;
-    color: #19191B;
-    font-family: "DM Sans", sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 57px; /* 114% */
-    letter-spacing: -1.563px;
-    margin: 0 208px 30px 0;
-}
-.hero-3 div p{
-    width: 409px;
-    color: #696871;
-    font-family: "Mulish", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px; /* 150% */
-    letter-spacing: -0.625px;
-    margin-bottom: 30px;
-}
-.hero-3 div a{
-    color: #5454D4;
-    font-family: "DM Sans", sans-serif;
-    font-size: 17px;
-    font-weight: 700;
-    letter-spacing: -0.531px;
-}
-.hero-3 img{
-    margin: 0 106px 138px 0;
-}
-/*-----------------------card--------------------*/
-.cards {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     text-align: center;
-    margin-bottom: 150px;
+    margin-top: 138px;
+    gap: 74px;
 }
-.cards div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.cards img{
+    margin-left: 30px;
 }
-.cards div img{
-    width: 151px;
-    height: 97px;
-    background: #C4C4C4;
-    margin-bottom: 20px;
-}
-.cards div h4{
+.cards h4{
     color: #19191B;
     text-align: center;
     font-family: "DM Sans", sans-serif;
@@ -198,16 +192,173 @@ header nav a{
     font-weight: 700;
     line-height: 36px; /* 150% */
     letter-spacing: -0.75px;
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
 }
-.cards div p{
+.cards p{
     width: 307px;
     color: #696871;
     text-align: center;
     font-family: "Mulish", sans-serif;
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
     letter-spacing: -0.5px;
 }
-
+/*----------------------plan------------------*/
+.plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 0 98px 0;
+}
+.plan h2{
+    width: 510px;
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px; /* 116.667% */
+    letter-spacing: -1.876px;
+}
+.rectangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 55px;
+    border-radius: 10px 0 0 10px;
+    background: #5454D4;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+.box-transparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 55px;
+    border-radius: 10px;
+    background: #F7F7FB;
+    color: #19191B;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+/*-----------------rectangle------------------*/
+.tabs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tab{
+    width: 330px;
+    height: 441px;
+    border-radius: 10px;
+    background: #F8F8F8;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 101px;
+    transition: 1s;
+}
+.tabs p{
+    color: #696871;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.563px;
+}
+.top{
+    margin: 34px 0 22px 0;
+}
+.tab h2{
+    color: #1D293F;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 93.333% */
+    letter-spacing: -1.034px;
+    margin-bottom: 28px;
+}
+.center{
+    height: 150px;
+    color: #696871;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 294.118% */
+    letter-spacing: -0.531px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+span{
+    color: #1D293F;
+    font-family: "Mulish", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1.034px;
+}
+button{
+    width: 285px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-top: 36px;
+    color: #5454D4;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+}
+.tab:hover{
+    /*width: 376px;*/
+    /*height: 473px;*/
+    border-radius: 10px;
+    background: #FF7143;
+    box-shadow: 0 32px 34px 0 rgba(255, 112, 59, 0.32);
+    transform: scale(1.1);
+    transition: 1s;
+}
+.tab button:hover{
+    width: 305px;
+    height: 60px;
+    border-radius: 10px;
+    background: #9F3919;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+    transition: 1s;
+}
