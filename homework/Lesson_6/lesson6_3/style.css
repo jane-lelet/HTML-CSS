@@ -1,0 +1,99 @@
+*{
+    margin: 0 auto;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 30px auto;
+    font-family: "Arial", sans-serif;
+}
+.instagram {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgba(165, 164, 164, 0.31);
+    padding-top: 80px;
+}
+.instagram__img{
+    margin-bottom: 40px;
+}
+
+.registration{
+    width: 800px;
+    height: 150px;
+    border: 3px solid rgba(165, 164, 164, 0.31);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+div.instagram>form>label{
+    display: block;
+}
+input[type="text"],
+input[type="password"]{
+    width: 550px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid rgba(165, 164, 164, 0.31);
+    border-radius: 8px;
+}
+input[type="text"],
+input[type="password"]::placeholder{
+    font-size: 24px;
+    padding-left: 15px;
+}
+.submit{
+    display: block;
+    width: 550px;
+    height: 75px;
+    border: none;
+    border-radius: 17px;
+    background-color: rgba(70, 153, 246, 0.58);
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+.about{
+    font-size: 26px;
+    font-weight: 600;
+    color: grey;
+    margin: 50px 0 45px 0;
+    color: rgba(57, 54, 54, 0.66);
+}
+.facebook{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.facebook img{
+    height: 40px;
+    width: 40px
+}
+.facebook a{
+    font-size: 35px;
+    font-weight: 600;
+    color: #08319f;
+}
+.forget-password{
+    margin: 10px 0 50px 0;
+    color: #08319f;
+    font-size: 26px;
+    font-weight: 600;
+}
+.registration p{
+    margin-left: 60px;
+}
+.registration a{
+    margin-right: 50px;
+    color: rgba(70, 153, 246, 0.7);
+}

@@ -1,0 +1,22 @@
+/*div :first-child {*/
+/*    color: lightcoral;*/
+/*}*/
+/*div p::first-letter {*/
+/*    color: rgb(149, 14, 134);*/
+/*    font-size: 20px;*/
+/*}*/
+
+/*!*div p::first-line {*!*/
+/*!*    color: rgb(149, 14, 134);*!*/
+/*!*    font-size: 20px;*!*/
+/*}*/
+div :last-child {
+    color: red;
+    font-size: 25px;
+}
+div p:last-of-type{
+    color: crimson;
+}
+ul li:nth-last-child(2n+3) {
+    color: cyan;
+}

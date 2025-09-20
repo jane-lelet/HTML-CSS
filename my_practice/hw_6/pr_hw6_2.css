@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+.form-registration{
+    width: 40vw;
+    height: 65vh;
+    background-color: white;
+    border-radius: 10px;
+}
+/*--------------div-1-----------*/
+.form-registration div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 139, 139, 0.2);
+    height: 25%;
+}
+.form-registration div:nth-child(1) h3{
+    font-size: 23px;
+    font-weight: 400;
+}
+/*-------------form--------------*/
+.form-registration form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+input[type="text"],
+input[type="password"]{
+    width: 320px;
+    height: 30px;
+    margin: 15px;
+}
+/*--------------div-2-----------*/
+.form-registration>form>div{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+form input[type="checkbox"]{
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-bottom: -2px;
+}
+form input[type="checkbox"]:checked{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAABAUlEQVR4nO3UzyoGURgH4IeVKP8KV2Kh2JCNZOUCXIBbUHayUdixY8dF2FhZSoqUUoqsZcH30dSo6XSmvhnnlMX3q3cz553zzJlmXvr5J9nAAaZyInP4wjdesZoDGcZdifzWBwZTQ/sBUtRZamQenQB5w0xKZAQPkdOsS5yjCHKaGllGN0CeMZkSGcNT5DQrTTaZwE75X9TlJIIcN0HGcVXe+I6lSM9aBHnEaBPoItigwBYr68VoeQl6ukFPT7mMPG0VO4+sH2qRadzUYHuR6/fl+GmV4vVcRzYNq4OFtkgTbPevSC/YLYZSQXXYJ2ZlSPiBbOdAqiNnC5sYyAn1I8wPhYF6R8ov69EAAAAASUVORK5CYII=);
+    background-size: cover;
+}
+/*.form-registration>form>div>label>input[type="submit"]{*/
+/*    */
+/*} або так*/
+form input[type="submit"]{
+    width: 100px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: rgba(0, 139, 139, 0.2);
+}

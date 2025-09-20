@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Вага селекторів</title>
+    <style>
+/*
+
+1000 б - inline (вбудована стилізація, в середині тегу)
+100 б  - id (# ідентифікатор)
+10 б   - class (клас)
+1 б    - tag (тег)
+
+*/
+body p.text{
+    color: blue;
+}
+p{
+    color: coral;
+}
+p.lorem{
+    color: crimson;
+}
+section div p.pink{
+    color: lawngreen;
+    font-size: 25px;
+}
+section div.box p.pink{
+    color: #7dd8f4;
+}
+
+    </style>
+</head>
+<body>
+<p class="text lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, vel.</p>
+
+<section>
+    <div class="box">
+        <p class="pink">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, cum.</p>
+    </div>
+</section>
+</body>
+</html>

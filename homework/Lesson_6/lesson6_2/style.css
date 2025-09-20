@@ -1,0 +1,71 @@
+body{
+    height: 100vh;
+    background-color: #317f81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+}
+.form-registration{
+    width: 35vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 10px;
+}
+/*-------------div-1-----------*/
+.form-registration div:first-child{
+    background-color: rgba(69, 176, 179, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
+.form-registration div:first-child h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+/*---------------form-------------*/
+.form-registration form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form input[type="text"],
+form input[type="password"]{
+   margin: 12px;
+   width: 320px;
+   height: 30px;
+    border: 1px solid grey;
+}
+form input[type="text"],
+form input[type="password"]::placeholder{
+    font-size: 15px;
+}
+/*-----------------div-2------------*/
+div.form-registration>form>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+    padding-top: 20px;
+}
+form input[type="checkbox"]{
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    margin-bottom: -2px;
+}
+form input[type="checkbox"]:checked{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAABAUlEQVR4nO3UzyoGURgH4IeVKP8KV2Kh2JCNZOUCXIBbUHayUdixY8dF2FhZSoqUUoqsZcH30dSo6XSmvhnnlMX3q3cz553zzJlmXvr5J9nAAaZyInP4wjdesZoDGcZdifzWBwZTQ/sBUtRZamQenQB5w0xKZAQPkdOsS5yjCHKaGllGN0CeMZkSGcNT5DQrTTaZwE75X9TlJIIcN0HGcVXe+I6lSM9aBHnEaBPoItigwBYr68VoeQl6ukFPT7mMPG0VO4+sH2qRadzUYHuR6/fl+GmV4vVcRzYNq4OFtkgTbPevSC/YLYZSQXXYJ2ZlSPiBbOdAqiNnC5sYyAn1I8wPhYF6R8ov69EAAAAASUVORK5CYII=);
+    background-size: cover;
+}
+form input[type="submit"]{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: rgba(69, 176, 179, 0.3);
+}

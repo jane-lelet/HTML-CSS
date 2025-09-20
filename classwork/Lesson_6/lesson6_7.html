@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style6_7.css">
+    <title>Focus placeholder</title>
+</head>
+<body>
+<form class="form-registration">
+<!------name------->
+    <label for="name"> Ввести ім'я </label>
+    <input type="text" name="name" id="name" placeholder="Name" required> <sup>*</sup>
+
+<!----------e-mail---------->
+    <label for="email"> Ввести email </label>
+    <input type="email" name="email" id="email" placeholder="example@gmail.com" required> <sup>*</sup>
+
+<!----------password--------->
+    <label for="password"> Ввести пароль </label>
+    <input type="password" name="password" id="password" placeholder="password" required> <sup>*</sup>
+
+<!--------number-phone------->
+    <label for="tel"> Ввести номер телефону </label>
+    <input type="number" name="phone" id="tel" placeholder="phone" required> <sup>*</sup>
+
+<!---------number-age-------->
+    <label for="age"> Ввести вік </label>
+    <input type="number" name="age" id="age" min="18" max="100">
+
+<!----------color----------->
+    <label for="color"> Ввести колір </label>
+    <input type="color" name="color" id="color">
+
+<!-----------file---------->
+    <label for="file"> Прикріпити файл </label>
+    <input type="file" name="color" id="file">
+
+<!-----------date----------->
+    <label for="date"> Вказати дату </label>
+    <input type="date" name="color" id="date">
+
+<!-----------time----------->
+    <label for="time"> Вказати час </label>
+    <input type="time" name="time" id="time">
+
+<!-----------radio---------->
+    <label>Стать</label>
+    <label><input type="radio" name="gender" value="male">Чоловіча</label>
+    <label><input type="radio" name="gender" value="female">Жіноча</label>
+
+<!-----------checkbox-------->
+    <label>Вибрати декілька варіантів</label>
+    <label>
+        <input type="checkbox" name="newsletter">Підписатись на новини
+    </label>
+    <label>
+        <input type="checkbox" name="newsletter">Прочитати статтю
+    </label>
+    <label>
+        <input type="checkbox" name="newsletter">Залишити коментар
+    </label>
+    <label>
+        <input type="checkbox" name="newsletter">Перейти до посилання
+    </label>
+<!---------------select+option-------->
+    <label for="country">Країна</label>
+    <select id="country">
+        <option value="">Оберіть країну</option>
+        <option value="ua">Україна</option>
+        <option value="usa">США</option>
+        <option value="ca">Канада</option>
+        <option value="gb">Великобританія</option>
+    </select>
+
+<!---------------select+optgroup--------->
+    <label for="phone"></label>
+    <select id="phone">
+        <optgroup label="Apple">
+            <option value="x">Iphone X</option>
+            <option value="xr">Iphone XR</option>
+            <option value="xs">Iphone XS</option>
+        </optgroup>
+        <optgroup label="Samsung">
+            <option value="one">Samsung One</option>
+            <option value="two">Samsung Two</option>
+            <option value="three">Samsung Three</option>
+        </optgroup>
+    </select>
+
+<!------------textarea------------>
+    <label for="comment"></label>
+    <textarea id="comment" rows="10" cols="40"></textarea>
+
+<!--------------submit/reset------------>
+    <div>
+        <input type="submit" value="Надіслати">
+        <input type="reset" value="Скинути">
+    </div>
+
+</form>
+</body>
+</html>
