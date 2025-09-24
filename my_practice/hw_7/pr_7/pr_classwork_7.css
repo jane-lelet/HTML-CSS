@@ -1,0 +1,28 @@
+.container{
+    width: 400px;
+    height:8400px;
+    border: 2px solid blue;
+    margin: 0 auto;
+    position: relative;
+}
+.container div{
+    text-align: center;
+    font-weight: 600;
+    line-height: 50px   ;
+}
+.block-1{
+    background-color: lightgreen;
+}
+.block-2{
+    background-color: deepskyblue;
+    position: absolute;
+    width: 100%;
+    /*right: 0;*/
+    /*bottom: 0;*/
+    left: 30px;
+    top: 20px;
+    z-index: 1;
+}
+.block-3{
+    background-color: palevioletred;
+}
