@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    /*align-items: center;*/
+    height: 50vh;
+    background-color: rgba(238, 130, 238, 0.59);
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #3F50E7;
+}
+.item1{
+    align-self: flex-start;
+}
+.item2{
+    align-self: center;
+}
+.item3{
+    align-self: flex-end;
+}
